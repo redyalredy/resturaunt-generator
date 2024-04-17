@@ -1,0 +1,35 @@
+#foodType, #location, #dietaryRestrictions {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #000;
+    border-radius: 10px;
+}
+
+#map {
+    padding-top: 20px; /* adjust as needed */
+    padding-bottom: 20px; /* adjust as needed */
+}
+
+#searchButton{
+    border-radius: 30px;
+}
+
+body {
+    font-family: 'pt_sans_narrowregular';
+    font-size: 20px;
+    background-image: url('rest.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@font-face {
+    font-family: 'pt_sans_narrowregular';
+    src: url('ptsansnarrow-regular-webfont.woff2') format('woff2'),
+         url('ptsansnarrow-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  
+  }
+
+ 
